@@ -1,0 +1,521 @@
+/*Desktop or large tablet style*/
+@media only screen and (min-width: 1024px) 
+{
+/*General Styles*/
+
+
+header
+{
+	border: solid white 1px;
+	border-width: 100%;
+	background-color: white;
+	height: 84px;
+}
+
+header img {
+width: 246px;
+height: 84px;	
+}
+
+section, h3
+{
+	font-size: 20px;
+}
+
+blockquote{
+  border-left: 5px solid #29AAE1;
+  font-style: italic;
+  padding-right: 15px;
+  margin-left: -5px;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2, h3, .forms, input[type=text], .sub, section, footer {
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	color: white;
+}
+
+a:link
+{
+	background-color: 
+	color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+a:hover
+{
+	font-weight: bold;
+
+}
+
+.tabs .tab .active
+{
+	background-color: rgb(0, 120, 235);
+	font-weight: bold;
+}
+
+#about, #tutors, #tutees, #faqs, #contact {
+	color: #FFF;
+}
+
+#aboutmain, #tutorsmain, #tuteesmain, #faqsmain, #contactmain {
+	padding: 5px 20px;
+	margin-top: -42px;
+	margin-left: 11px;
+	margin-right: 11px;
+	color: #FFF;
+}
+
+main a, footer a {
+	text-decoration: underline;
+}
+
+footer
+{
+	height: 100px;
+	background-color: black;
+	color: white;
+	margin: -20px 11px;
+}
+
+footer p
+{
+	padding-top: 25px;
+	padding-left: 5px;
+}
+
+footer div {
+	padding-left: 5px;
+}
+
+/*About Rules*/
+#aboutpic {
+	 width: 70%;
+	 padding-left: 550px;
+	 padding-bottom: 30px;
+}
+
+#about, #aboutmain {
+	background-color: #044467;
+}
+
+.about
+{
+	margin-left: -50px;
+}
+
+/*Tutors and Tutees Rules*/
+#tutors, #tutorsmain {
+	background-color: #025B93;
+}
+#tutees, #tuteesmain {
+	background-color: #0072BF;
+}
+
+#tutor1 blockquote, #tutor3 blockquote, #tutor2 blockquote, #tutee1 p, #tutee2 p{
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+#tutor1 h2, #tutor3 h2, #tutor2 h2, #tutee1 h2 {
+	padding-top: 5px;
+	margin-top: 25px;
+}
+
+#tutor1 p, #tutor3 p, #tutee2 p
+{
+	width: 60%;	
+}
+
+#tutor2 p, #tutee1 p
+{
+	padding-left: 500px;
+	margin-left: 150px;
+}
+
+#tutor2 blockquote{
+	border-left: 0px;
+	border-right: 5px solid #025B93;
+}
+
+#tutor1, #tutor2, #tutor3, #tutee1, #tutee2{
+	background-repeat: no-repeat;
+	background-size: 30%;
+}
+
+#tutor1 {
+		background-image: url("../images/angela.jpg");
+		background-position: right center;
+}
+
+#tutor2
+{
+	background-image: url("../images/jack.jpg");
+	background-position: left center;
+	text-align: right;
+}
+
+#tutor3 {
+		background-image: url("../images/charles.jpg"); 
+		background-position: right center;
+}
+
+#tutee1
+{
+	background-image: url("../images/nate.jpg");
+	background-position: left center;
+	text-align: right;
+}
+
+#tutee2
+{
+	background-image: url("../images/aliyah.jpg");
+	background-position: right center;
+	text-align: left;
+}
+
+/*FAQs Rules*/
+#faqs, #faqsmain {
+	background-color: #158ED0;
+}
+.collapsible-header{
+	color: #158ED0;
+}
+
+.collapsible-body {
+	color: #FFF;
+	background-color: #025B93;
+}
+
+.q {
+	width: 25px;
+	height: 25px;
+	margin: 0 10px 0 8px;
+}
+
+/*Contact Rules*/
+#contact, #contactmain {
+	background-color: #29AAE1;
+}
+
+.socmedia {
+	width: 55px;
+	height: 55px;
+	margin: 0 10px 0 8px;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.forms
+{
+	background-color: #29AAE1;
+	color: white;
+	width: 60%;
+}
+
+input[type=text] {
+	color: white;
+}
+
+.sub
+{
+	margin: 10px;
+	width: 10%;
+}
+
+}
+
+
+@media only screen and (max-width: 414px) {
+
+/* general styles */
+
+
+header
+{
+	border: solid white 1px;
+	border-width: 100%;
+	background-color: white;
+	height: 84px;
+}
+
+header img {
+width: 246px;
+height: 84px;	
+}
+
+a {
+	color: white;
+}
+
+a:link
+{
+	background-color: 
+	color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+a:hover
+{
+	font-weight: bold;
+
+}
+
+h1
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2, h3, .forms, input[type=text], .sub, section, footer
+{
+	font-family: 'Raleway', sans-serif;
+}
+h2
+{
+	font-size: 25px;
+}
+h3
+{
+	font-size: 18px;
+}
+
+
+#aboutmain, #tutorsmain, #tuteesmain, #faqsmain, #contactmain
+{
+	color: #FFF;
+	margin-top: -39.5px;
+	margin-left: 10px;
+	margin-right: 10.5px;
+	padding: 5px 20px;
+}
+
+main a, footer a
+{
+	text-decoration: underline;
+}
+
+footer
+{
+	height: 120px;
+	background-color: black;
+	color: white;
+	margin-top: -15px;
+	margin-left: 10px;
+	margin-right: 10.5px;
+}
+
+footer p
+{
+	padding-top: 25px;
+	padding-left: 5px;
+}
+
+/* nav */
+
+#about, #tutors, #tutees, #faqs, #contact
+{
+	text-indent: -2000px;
+	background-size: 60px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#about
+{
+	background-image: url("../images/about.png");
+}
+
+#tutors
+{
+	background-image: url("../images/tutors.png");
+}
+
+#tutees
+{
+	background-image: url("../images/tutees.png");
+}
+
+#faqs
+{
+	background-image: url("../images/faqs.png");
+}
+
+#contact
+{
+	background-image: url("../images/contact.png");
+}
+
+
+/* about */
+
+#aboutpic
+{
+	 width: 80%;
+	 /*height: 160px;*/
+	 padding-left: 15%;
+	 
+}
+
+#about, #aboutmain
+{
+	background-color: #044467;
+}
+
+
+
+/* tutors */
+
+#tutors, #tutorsmain
+{
+	background-color: #025B93;
+}
+#tutorsmain
+{
+	text-align: center;
+}
+
+
+#tutor1, #tutor2, #tutor3
+{
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#tutor1
+{
+	background-image: url("../images/angela.jpg");
+}
+blockquote
+{
+	padding-bottom: 140px;
+	margin-bottom: 60px;
+	border-left: 5px solid #025B93;
+  font-style: italic;
+  padding-right: 15px;
+  margin-left: -5px;
+}
+#tutor2
+{
+	background-image: url("../images/jack.jpg");
+	text-align: left;
+}
+
+#tutor2 p
+{
+	padding-bottom: 160px;
+	margin-bottom: 60px;
+}
+
+#tutor3 p
+{
+	padding-bottom: 200px;
+	margin-bottom: 60px;
+}
+
+#tutor3
+{
+	background-image: url("../images/charles.jpg");
+}
+
+
+#tutor1 h2, #tutor2 h2, #tutor3 h2
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+
+/* tutees */
+#tutees, #tuteesmain
+{
+	background-color: #0072BF;
+}
+#tuteesmain
+{
+	text-align: center;
+}
+#tutee1
+{
+	background-image: url("../images/nate.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 25%;
+}
+#tutee1 h2
+{
+	font-size: 30px;
+	text-align: center;	
+	
+}
+#tutee1 p
+{
+	margin-top: 170px;	
+}
+
+
+/* faqs */
+
+#faqs, #faqsmain
+{
+	background-color: #158ED0;
+}
+
+
+.collapsible-header
+{
+	color: #158ED0;
+}
+
+.collapsible-body
+{
+	color: #FFF;
+	background-color: #025B93;
+}
+
+.q
+{
+	width: 25px;
+	height: 25px;
+	margin: 0 10px 0 8px;
+}
+
+
+/*contact */
+
+#contact, #contactmain
+{
+	background-color: #29AAE1;
+}
+
+.socmedia {
+	width: 55px;
+	height: 55px;
+	margin: 0 10px 0 8px;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+}
