@@ -13,8 +13,10 @@ header
 }
 
 header img {
-width: 246px;
-height: 84px;	
+	width: 246px;
+	height: 84px;
+	display: block;
+	margin-left: auto;
 }
 
 section, h3
@@ -100,9 +102,11 @@ footer div {
 
 /*About Rules*/
 #aboutpic {
-	 width: 70%;
-	 padding-left: 550px;
-	 padding-bottom: 30px;
+	 width: 50%;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding-bottom: 10px;
 }
 
 #about, #aboutmain {
@@ -237,7 +241,7 @@ input[type=text] {
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 1023px) {
 
 /* general styles */
 
@@ -251,8 +255,11 @@ header
 }
 
 header img {
-width: 246px;
-height: 84px;	
+	width: 246px;
+	height: 84px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
@@ -317,14 +324,24 @@ footer
 	background-color: black;
 	color: white;
 	margin-top: -15px;
+	margin-bottom: 50px;
 	margin-left: 10px;
 	margin-right: 10.5px;
 }
 
 footer p
 {
-	padding-top: 25px;
+	text-align: center;
+	padding-top: 10px;
 	padding-left: 5px;
+}
+
+footer div
+{
+	text-align: center;
+	padding-top: -5px;
+	padding-left: 5px;
+	padding-bottom: 15px;
 }
 
 /* nav */
@@ -340,26 +357,31 @@ footer p
 #about
 {
 	background-image: url("../images/about.png");
+	background-size: 50%;
 }
 
 #tutors
 {
 	background-image: url("../images/tutors.png");
+	background-size: 50%;
 }
 
 #tutees
 {
 	background-image: url("../images/tutees.png");
+	background-size: 50%;
 }
 
 #faqs
 {
 	background-image: url("../images/faqs.png");
+	background-size: 50%;
 }
 
 #contact
 {
 	background-image: url("../images/contact.png");
+	background-size: 50%;
 }
 
 
@@ -405,12 +427,12 @@ footer p
 }
 blockquote
 {
-	padding-bottom: 140px;
-	margin-bottom: 60px;
+	padding-bottom: 100px;
+	margin-bottom: 80px;
 	border-left: 5px solid #025B93;
-  font-style: italic;
-  padding-right: 15px;
-  margin-left: -5px;
+	font-style: italic;
+	padding-right: 15px;
+	margin-left: -5px;
 }
 #tutor2
 {
@@ -420,14 +442,12 @@ blockquote
 
 #tutor2 p
 {
-	padding-bottom: 160px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 #tutor3 p
 {
-	padding-bottom: 200px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 #tutor3
@@ -459,9 +479,16 @@ blockquote
 	background-image: url("../images/nate.jpg");
 	background-repeat: no-repeat;
 	background-size: 80%;
-	background-position: 50% 25%;
+	background-position: 50% 13%;
 }
-#tutee1 h2
+#tutee2
+{
+	background-image: url("../images/aliyah.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 13%;
+}
+#tutee1 h2, #tutee2 h2
 {
 	font-size: 30px;
 	text-align: center;	
@@ -469,7 +496,12 @@ blockquote
 }
 #tutee1 p
 {
-	margin-top: 170px;	
+	margin-top: 120px;	
+}
+
+#tutee2 p
+{
+	margin-top: 220px;
 }
 
 
