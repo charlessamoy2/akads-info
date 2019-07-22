@@ -241,7 +241,7 @@ input[type=text] {
 }
 
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 414px) {
 
 /* general styles */
 
